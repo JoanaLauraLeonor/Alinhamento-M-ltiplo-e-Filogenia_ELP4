@@ -1,0 +1,377 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.10.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_14539</BlastOutput_query-ID>
+  <BlastOutput_query-def>NP_061913.3 elongator complex protein 4 isoform 1 [Homo sapiens]</BlastOutput_query-def>
+  <BlastOutput_query-len>424</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_14539</Iteration_query-ID>
+  <Iteration_query-def>NP_061913.3 elongator complex protein 4 isoform 1 [Homo sapiens]</Iteration_query-def>
+  <Iteration_query-len>424</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>sp|Q96EB1.2|</Hit_id>
+  <Hit_def>RecName: Full=Elongator complex protein 4; Short=hELP4; AltName: Full=PAX6 neighbor gene protein [Homo sapiens]</Hit_def>
+  <Hit_accession>Q96EB1</Hit_accession>
+  <Hit_len>424</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>875.93</Hsp_bit-score>
+      <Hsp_score>2262</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>424</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>424</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>424</Hsp_identity>
+      <Hsp_positive>424</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>424</Hsp_align-len>
+      <Hsp_qseq>MAAVATCGSVAASTGSAVATASKSNVTSFQRRGPRASVTNDSGPRLVSIAGTRPSVRNGQLLVSTGLPALDQLLGGGLAVGTVLLIEEDKYNIYSPLLFKYFLAEGIVNGHTLLVASAKEDPANILQELPAPLLDDKCKKEFDEDVYNHKTPESNIKMKIAWRYQLLPKMEIGPVSSSRFGHYYDASKRMPQELIEASNWHGFFLPEKISSTLKVEPCSLTPGYTKLLQFIQNIIYEEGFDGSNPQKKQRNILRIGIQNLGSPLWGDDICCAENGGNSHSLTKFLYVLRGLLRTSLSACIITMPTHLIQNKAIIARVTTLSDVVVGLESFIGSERETNPLYKDYHGLIHIRQIPRLNNLICDESDVKDLAFKLKRKLFTIERLHLPPDLSDTVSRSSKMDLAESAKRLGPGCGMMAGGKKHLDF</Hsp_qseq>
+      <Hsp_hseq>MAAVATCGSVAASTGSAVATASKSNVTSFQRRGPRASVTNDSGPRLVSIAGTRPSVRNGQLLVSTGLPALDQLLGGGLAVGTVLLIEEDKYNIYSPLLFKYFLAEGIVNGHTLLVASAKEDPANILQELPAPLLDDKCKKEFDEDVYNHKTPESNIKMKIAWRYQLLPKMEIGPVSSSRFGHYYDASKRMPQELIEASNWHGFFLPEKISSTLKVEPCSLTPGYTKLLQFIQNIIYEEGFDGSNPQKKQRNILRIGIQNLGSPLWGDDICCAENGGNSHSLTKFLYVLRGLLRTSLSACIITMPTHLIQNKAIIARVTTLSDVVVGLESFIGSERETNPLYKDYHGLIHIRQIPRLNNLICDESDVKDLAFKLKRKLFTIERLHLPPDLSDTVSRSSKMDLAESAKRLGPGCGMMAGGKKHLDF</Hsp_hseq>
+      <Hsp_midline>MAAVATCGSVAASTGSAVATASKSNVTSFQRRGPRASVTNDSGPRLVSIAGTRPSVRNGQLLVSTGLPALDQLLGGGLAVGTVLLIEEDKYNIYSPLLFKYFLAEGIVNGHTLLVASAKEDPANILQELPAPLLDDKCKKEFDEDVYNHKTPESNIKMKIAWRYQLLPKMEIGPVSSSRFGHYYDASKRMPQELIEASNWHGFFLPEKISSTLKVEPCSLTPGYTKLLQFIQNIIYEEGFDGSNPQKKQRNILRIGIQNLGSPLWGDDICCAENGGNSHSLTKFLYVLRGLLRTSLSACIITMPTHLIQNKAIIARVTTLSDVVVGLESFIGSERETNPLYKDYHGLIHIRQIPRLNNLICDESDVKDLAFKLKRKLFTIERLHLPPDLSDTVSRSSKMDLAESAKRLGPGCGMMAGGKKHLDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>sp|Q9P217.2|</Hit_id>
+  <Hit_def>RecName: Full=Zinc finger SWIM domain-containing protein 5 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9P217</Hit_accession>
+  <Hit_len>1185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.133073</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>332</Hsp_query-to>
+      <Hsp_hit-from>384</Hsp_hit-from>
+      <Hsp_hit-to>603</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>TLLVASAKEDPANILQELPAPLLDDKCKKEFDE----DVYNHKTPESNIKMKIAWRYQL--LPKMEIGPVSSSRFGHYY-DASKRMPQELIEASNWHGFFLPEKISSTLKVEPCSLTPGYTKLLQFIQNIIYEEGFDGSNPQKKQRNILRIGIQNLGSPLWGDDI---CCAENGGNSHSLTK-FLYVLRGLLRTSLSACIITMPTHLIQNKAIIARVTTLSDVVVGLESFIG</Hsp_qseq>
+      <Hsp_hseq>TLITEQFVADPRLTLWRQQGTNMTDKCRQLWDELGALWVCIILNPHCKLEEKSCWLQQLQKWSDLDVCPLEDGNYGHELPNITNALPQSAIHSPD--SLSRPRRTVFTRAIEGRELHWQDSHLQRIISSDVY-------TAPACQRESERLLFNSQGQPLWLEHVPTACARVDALRSHGYPKEALRLTVAIINTLRLQQQRQLEIYKHQKKELLQRGTT---TITNLEGWVG</Hsp_hseq>
+      <Hsp_midline>TL+      DP   L       + DKC++ +DE     V     P   ++ K  W  QL     +++ P+    +GH   + +  +PQ  I + +      P +   T  +E   L    + L + I + +Y            QR   R+   + G PLW + +   C   +   SH   K  L +   ++ T        +  +  Q K ++ R TT    +  LE ++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>sp|Q9BZE9.1|</Hit_id>
+  <Hit_def>RecName: Full=Tether containing UBX domain for GLUT4; AltName: Full=Alveolar soft part sarcoma chromosomal region candidate gene 1 protein; AltName: Full=Alveolar soft part sarcoma locus; AltName: Full=Renal papillary cell carcinoma protein 17; AltName: Full=UBX domain-containing protein 9 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9BZE9</Hit_accession>
+  <Hit_len>553</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.295773</Hsp_evalue>
+      <Hsp_query-from>133</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>LLDDKCKKE-FDEDVYNHKTPESNIKMKIAWRYQLLP---KMEIGPVSSSRFG</Hsp_qseq>
+      <Hsp_hseq>VLEDTCRRQDFNPCEYDLKFQRSVLDLSLQWRFANLPNNAKLEMVPASRSREG</Hsp_hseq>
+      <Hsp_midline>+L+D C+++ F+   Y+ K   S + + + WR+  LP   K+E+ P S SR G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>sp|Q9GZY1.1|</Hit_id>
+  <Hit_def>RecName: Full=Prostate and breast cancer overexpressed gene 1 protein; AltName: Full=Protein UROC28; Short=UC28 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9GZY1</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>2.2816</Hsp_evalue>
+      <Hsp_query-from>338</Hsp_query-from>
+      <Hsp_query-to>382</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>NPLYKDYHGLIHIRQI----------PRLNNLICDESDVKDLAFKLKRKLFTIER</Hsp_qseq>
+      <Hsp_hseq>NQKYEDMHNIIHILQIRKLRHRLSNFPRLPGILAPETVLLPFCYKVFRKKEKVKR</Hsp_hseq>
+      <Hsp_midline>N  Y+D H +IHI QI          PRL  ++  E+ +    +K+ RK   ++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>sp|P51513.2|</Hit_id>
+  <Hit_def>RecName: Full=RNA-binding protein Nova-1; AltName: Full=Neuro-oncological ventral antigen 1; AltName: Full=Onconeural ventral antigen 1; AltName: Full=Paraneoplastic Ri antigen; AltName: Full=Ventral neuron-specific protein 1 [Homo sapiens]</Hit_def>
+  <Hit_accession>P51513</Hit_accession>
+  <Hit_len>507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>3.6301</Hsp_evalue>
+      <Hsp_query-from>221</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>477</Hsp_hit-from>
+      <Hsp_hit-to>505</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>TPGYTKLLQFI--QNIIYEEGFDGSNPQK</Hsp_qseq>
+      <Hsp_hseq>TPAATQAAQYLITQRITYEQGVRAANPQK</Hsp_hseq>
+      <Hsp_midline>TP  T+  Q++  Q I YE+G   +NPQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>sp|Q9NQ48.1|</Hit_id>
+  <Hit_def>RecName: Full=Leucine zipper transcription factor-like protein 1 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9NQ48</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>5.07669</Hsp_evalue>
+      <Hsp_query-from>271</Hsp_query-from>
+      <Hsp_query-to>353</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>CAENGGNSH------SLTKFLYVLRGLLRTSLSACIITM-PTHLIQNKAIIARVTTLSDVVVGLESFIGSERETNPLYKDYHGLIHIRQI</Hsp_qseq>
+      <Hsp_hseq>MAELGLNEHHQNEVINYMRFARSKRGLRLKTVDSCFQDLKESRLVEDTFTIDEV---SEVLNGLQAVVHSEVESELINTAYTNVLLLRQL</Hsp_hseq>
+      <Hsp_midline> AE G N H      +  +F    RGL   ++ +C   +  + L+++   I  V   S+V+ GL++ + SE E+  +   Y  ++ +RQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>sp|Q70HW3.2|</Hit_id>
+  <Hit_def>RecName: Full=S-adenosylmethionine mitochondrial carrier protein; AltName: Full=Mitochondrial S-adenosylmethionine transporter; AltName: Full=Solute carrier family 25 member 26 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q70HW3</Hit_accession>
+  <Hit_len>274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>5.38081</Hsp_evalue>
+      <Hsp_query-from>225</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>TKLLQFIQNIIYEEGFDGSNPQKKQRNILRIGIQNLGSPLW</Hsp_qseq>
+      <Hsp_hseq>TRTFQIFSNILYEEGIQGLYRGYKSTVLREIPFSLVQFPLW</Hsp_hseq>
+      <Hsp_midline>T+  Q   NI+YEEG  G     K   +  I    +  PLW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>sp|Q15392.2|</Hit_id>
+  <Hit_def>RecName: Full=Delta(24)-sterol reductase; AltName: Full=24-dehydrocholesterol reductase; AltName: Full=3-beta-hydroxysterol Delta-24-reductase; AltName: Full=Diminuto/dwarf1 homolog; AltName: Full=Seladin-1; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>Q15392</Hit_accession>
+  <Hit_len>516</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>5.51984</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>SIAGTRPSVRNGQ---LLVSTG-----LPALDQLLGGGLAVGTVLLIEEDKYNIYSPLLFKY--FLAEG</Hsp_qseq>
+      <Hsp_hseq>QIVRVEPLVTMGQVTALLTSIGWTLPVLPELDDLTVGGLIMGTGIESSSHKYGLFQHICTAYELVLADG</Hsp_hseq>
+      <Hsp_midline> I    P V  GQ   LL S G     LP LD L  GGL +GT +     KY ++  +   Y   LA+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>sp|Q9UNW9.1|</Hit_id>
+  <Hit_def>RecName: Full=RNA-binding protein Nova-2; AltName: Full=Astrocytic NOVA1-like RNA-binding protein; AltName: Full=Neuro-oncological ventral antigen 2 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9UNW9</Hit_accession>
+  <Hit_len>492</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>6.4971</Hsp_evalue>
+      <Hsp_query-from>221</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>462</Hsp_hit-from>
+      <Hsp_hit-to>490</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>TPGYTKLLQFI--QNIIYEEGFDGSNPQK</Hsp_qseq>
+      <Hsp_hseq>SPAATQAAQYLISQRVTYEQGVRASNPQK</Hsp_hseq>
+      <Hsp_midline>+P  T+  Q++  Q + YE+G   SNPQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>sp|Q8NDL9.1|</Hit_id>
+  <Hit_def>RecName: Full=Cytosolic carboxypeptidase-like protein 5; AltName: Full=ATP/GTP-binding protein-like 5 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q8NDL9</Hit_accession>
+  <Hit_len>886</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>7.12104</Hsp_evalue>
+      <Hsp_query-from>345</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>214</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>HGLIHIRQIPRLNNLICDESDVKDLAFKLKRKLFTIERLH</Hsp_qseq>
+      <Hsp_hseq>HGLREDRE-PRLEQLFPDTSTPRPFRFAGKRIFFLSSRVH</Hsp_hseq>
+      <Hsp_midline>HGL   R+ PRL  L  D S  +   F  KR  F   R+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>sp|P23142.4|</Hit_id>
+  <Hit_def>RecName: Full=Fibulin-1; Short=FIBL-1; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>P23142</Hit_accession>
+  <Hit_len>703</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>8.00882</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>384</Hsp_hit-from>
+      <Hsp_hit-to>430</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>SRFGHYYDASKRMPQELIEASNWHGFFLPEKISSTLKVEPCSLTPGY</Hsp_qseq>
+      <Hsp_hseq>CKTGYYFDGISRMCVDVNECQRYPGRLCGHKCENTLGSYLCSCSVGF</Hsp_hseq>
+      <Hsp_midline> + G+Y+D   RM  ++ E   + G     K  +TL    CS + G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>sp|P54840.2|</Hit_id>
+  <Hit_def>RecName: Full=Glycogen [starch] synthase, liver [Homo sapiens]</Hit_def>
+  <Hit_accession>P54840</Hit_accession>
+  <Hit_len>703</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>8.50639</Hsp_evalue>
+      <Hsp_query-from>352</Hsp_query-from>
+      <Hsp_query-to>409</Hsp_query-to>
+      <Hsp_hit-from>412</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>QIPRLNNLICDESDVKDLAFKLKRKLFTIERLHLPPDLSDTVSRSSKMDLAESAKRLG</Hsp_qseq>
+      <Hsp_hseq>EIPDLNDIL----DRDDLTI-MKRAIFSTQRQSLPPVTTHNMIDDSTDPILSTIRRIG</Hsp_hseq>
+      <Hsp_midline>+IP LN+++    D  DL   +KR +F+ +R  LPP  +  +   S   +  + +R+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>20392</Statistics_db-num>
+      <Statistics_db-len>11366175</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
